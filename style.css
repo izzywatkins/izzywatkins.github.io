@@ -1,25 +1,38 @@
 body{
+    background-color: white;
     background-image: url(amanda-vick-uULc_hC_1gE-unsplash\ 11.17.42\ AM.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+a{
+    color: rgb(63, 116, 196);
+    text-decoration: none;
+    border-bottom: 2px solid rgb(63, 116, 196);
+    padding-bottom: 6px;
+}
+
+a:hover {
+    color: rgb(12, 58, 185);
+    border-bottom-color: rgb(12, 58, 185);
+}
+
 h1 {
     color:darkgreen;
-    background-color: thistle;
+    background-color: rgb(230, 218, 230);
     font-size: 80px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h2 {
     color:darkgreen;
-    background-color: thistle;
+    background-color: rgb(230, 218, 230);
     font-size: 60px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 p {
     color:darkseagreen;
-    background-color: thistle;
+    background-color: rgb(230, 218, 230);
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
