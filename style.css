@@ -1,11 +1,19 @@
 h1 {
     color:darkgreen;
+    background-color: thistle;
     font-size: 80px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+h2 {
+    color:darkgreen;
+    background-color: thistle;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 p {
     color:darkseagreen;
+    background-color: thistle;
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
