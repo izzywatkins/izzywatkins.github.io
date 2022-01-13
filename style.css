@@ -1,3 +1,7 @@
+/*
+font-family: 'Vollkorn', serif;
+*/
+
 body{
     background-color: white;
     background-image: url(background.jpeg);
@@ -19,29 +23,29 @@ a:hover {
 
 h1 {
     font-size: 80px;
-    font-weight: bold;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Vollkorn', serif;
+    font-weight: 900px;
 }
 
 h2 {
     font-size: 60px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Vollkorn', serif;
 }
 
 h3 {
     font-size: 60px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Vollkorn', serif;
 }
 
 ul  {
     font-size: 40px;
     font-weight: lighter;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Vollkorn', serif;
 }
 
 p {
     font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Vollkorn', serif;
 }
 
 .inspo {
