@@ -1,0 +1,28 @@
+#letter-v {
+    fill: steelblue;
+}
+
+#letter-e2 {
+    transition: 2s;
+    fill: rgb(49, 86, 141);
+}
+
+#letter-e2:hover {
+    fill: rgb(155, 210, 255);
+}
+
+#svg-test path {
+    fill: thistle;
+}
+
+#svg-test path:hover {
+    fill: rgb(90, 36, 90);
+}
+
+#letter-s, #letter-g, #letter-v {
+    transition: 500ms;
+}
+
+#letter-s:hover, #letter-g:hover, #letter-v:hover {
+    transform:rotate(15deg);
+}
