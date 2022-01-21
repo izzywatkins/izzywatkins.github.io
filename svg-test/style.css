@@ -1,28 +1,88 @@
-#letter-v {
-    fill: steelblue;
+.cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+  }
+
+  .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+    stroke-width: 0.75px;
+  }
+
+  .cls-1 {
+    fill: cornflowerblue;
+  }
+
+  .cls-2 {
+    fill:cornflowerblue;
+  }
+
+  .cls-3 {
+    fill:cornflowerblue;
+  }
+
+  .cls-4 {
+    fill:cornflowerblue;
+  }
+
+  .cls-5 {
+    fill:cornflowerblue;
+  }
+
+  .cls-6 {
+    fill:cornflowerblue;
+  }
+
+  .cls-7 {
+    fill: #ffd972;
+    stroke-width: 0.5px;
+  }
+
+svg {
+    overflow: visible;
 }
 
-#letter-e2 {
-    transition: 2s;
-    fill: rgb(49, 86, 141);
+.blue-flower {
+    width: 400px;
+    margin: auto;
 }
 
-#letter-e2:hover {
-    fill: rgb(155, 210, 255);
+.blue-flower .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+    width: 400px;
+    margin: auto;
+    transform:rotate(0deg);
+    animation-name: blue-flower;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: center center;
 }
 
-#svg-test path {
-    fill: thistle;
+@keyframes blue-flower {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(359deg);
+    }
 }
 
-#svg-test path:hover {
-    fill: rgb(90, 36, 90);
+.blue-flower .cls-7 {
+    animation-name: bigger;
+    animation-duration: 400ms;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    transform-origin: center center;
 }
 
-#letter-s, #letter-g, #letter-v {
-    transition: 500ms;
-}
-
-#letter-s:hover, #letter-g:hover, #letter-v:hover {
-    transform:rotate(15deg);
+@keyframes  bigger {
+    0% {
+        transform:scale(1);
+    }
+    50% {
+        transform:scale(1.5);
+    }
+    100% {
+        transform:scale(.7);
+    }
 }
