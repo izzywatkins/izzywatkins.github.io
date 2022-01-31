@@ -32,7 +32,7 @@ svg {
 .blue-flower .petals {
   width: 400px;
   margin: auto;
-  transform:rotate(0deg);
+  transform:rotateX(0deg);
   animation-name: blue-flower;
   animation-duration: 3s;
   animation-fill-mode: forwards;
